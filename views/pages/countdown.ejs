@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <input type="button", id="backbutton", value="Back">
+        <div class="countdown">
+            <p id="countdownPrefix">Activates in:</p>>
+            <h3 style="margin-top:0px;" id="countdownText">00:00:00</h3>
+            <div id="text">
+
+            </div>
+        </div>
+        <script>
+            document.getElementById('backbutton').addEventListener('click', function() {
+                location.href = '/';
+            });
+        </script>
+        <script>var date = "<%= date %>";</script>
+        <script>var done = "<%= done %>";</script>
+        <script src="countdown.js"></script>
+    </body>
+</html>

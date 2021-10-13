@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/jetbrainsmono/v6/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxTOlOV.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    background-color: black;
+}
+
+.countdown, .buttonclue, .holdbuttonarea {
+    min-height: 80vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.passwordarea {
+    min-height: 95vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'JetBrains Mono';
+    color: green;
+    background-color: #303030;
+}
+
+p {
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1rem;
+    font-family: 'JetBrains Mono';
+    color: green;
+}
+
+#button {
+    background-color: transparent;
+    border-color: green;
+    color: green;
+    border-style: solid;
+    border-width:5px;
+    border-radius:0px;
+    outline:none;
+    font-family: 'JetBrains Mono';
+    font-size: 5rem;
+    height: 12rem;
+    width: 25rem;
+}
+
+#backbutton {
+    background-color: transparent;
+    border-color: green;
+    color: green;
+    border-style: solid;
+    border-width:5px;
+    border-radius:0px;
+    outline:none;
+    font-family: 'JetBrains Mono';
+    font-size: 5rem;
+    height: 12rem;
+    width: 25rem;
+    transform: scale(0.5) translate(-11rem, -4rem);
+}
+
+#password {
+    background-color: #303030;
+    color: green;
+    border-width:0px;
+    border-radius:0px;
+    border:none;
+    outline:none;
+    font-family: 'JetBrains Mono';
+    transform: scale(2);
+}
+
+#submit {
+    -webkit-appearance: none;
+    background-color: green;
+    border-style: solid;
+    color: white;
+    border-width:0px;
+    border-radius:0px;
+    border:none;
+    outline:none;
+    font-family: 'JetBrains Mono';
+    margin-top: 1.25rem;
+    transform: scale(2);
+}

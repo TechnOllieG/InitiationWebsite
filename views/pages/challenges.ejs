@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            p {line-height:4rem;}
+          </style>
+    </head>
+    <body>
+        <input type="button", id="backbutton", value="Back">
+        <div class="challenges">
+            <p>Complete 3 Challenges:</p>
+            <p>Hugos Challenge</p>
+            <p style>Get a signed poster from an established games company (But you can't ask Emil ;))</p>
+            <p>Beat Emil in a 1v1 on Dota 2</p>
+        </div>
+        <script>
+            document.getElementById('backbutton').addEventListener('click', function() {
+                location.href = '/';
+            });
+        </script>
+    </body>
+</html>

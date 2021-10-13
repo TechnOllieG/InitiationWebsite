@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <input type="button", id="backbutton", value="Back">
+        <div class="holdbuttonarea">
+            <input type="button", value="Hold", id="button", onmousedown="onMouseDown();", onmouseup="onMouseUp();", onmouseleave="onMouseUp();", ontouchstart="onMouseDown();"ontouchend="onMouseUp();">
+            <p id="number">0</p>
+        </div>
+        <script>
+            document.getElementById('backbutton').addEventListener('click', function() {
+                location.href = '/';
+            });
+        </script>
+        <script src="button.js"></script>
+    </body>
+</html>
