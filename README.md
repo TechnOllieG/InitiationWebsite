@@ -19,6 +19,6 @@ The second line specifies the password to the button hold puzzle.
 In countdown-instructions.txt
 The contents of this file will be pasted on the countdown page when initial countdown reaches 0, after that point another 22 hour countdown will start
 
-To change amount of people required for button hold puzzle, change numbers in if statements on public/button.js:12 and server.js:104
-To change initial countdown time (the time before the instructions pop up), change server.js:143
-To change second countdown time (the time the students have to get the pepsi), change server.js:128
+To change amount of people required for button hold puzzle, change numbers in if statements on public/button.js:12 and server.js:167
+To change initial countdown time (the time before the instructions pop up), change server.js:206
+To change second countdown time (the time the students have to get the pepsi), change server.js:191
